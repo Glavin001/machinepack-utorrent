@@ -59,7 +59,7 @@ module.exports = {
       password: inputs.password,
     }).execSync();
     var options = {
-      'torrent_file': inputs.torrentContents
+      'torrent_file': inputs.torrentContents,
       'download_dir': inputs.downloadDir || 0,
       'path': inputs.path || ''
     };
