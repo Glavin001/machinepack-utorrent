@@ -1,6 +1,6 @@
 {
   "name": "machinepack-utorrent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Communicate with uTorrent client API to list and add torrents.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -35,7 +35,10 @@
       "list-torrents",
       "get-torrent-details",
       "create-client",
-      "add-torrent-url"
+      "add-torrent-url",
+      "start-torrent",
+      "stop-torrent",
+      "remove-torrent"
     ]
   }
 }
